@@ -1,4 +1,3 @@
-# Data
 
 This directory provides access information for the ProDist data package, which includes the image dataset, split metadata, class profiles, semantic prototypes, held-out predictions, and supporting records for artifact inspection.
 
