@@ -4,6 +4,16 @@ This repository provides the data, framework source code, and web-platform sourc
 
 ProDist uses expert-reviewed class profiles as training-time semantic guidance for compact image-only recognition. During training, the student model learns from visual teacher supervision and class-level semantic profile guidance. During deployment, only the image-based student classifier is retained.
 
+## Web Platform Preview
+
+<p align="center">
+  <img src="prodist_web_platform_source_code/screenshots/prodist_interface.png" alt="ProDist web platform interface" width="900">
+</p>
+
+<p align="center">
+  <em>Deployment-oriented ProDist web interface for image-only Vietnamese traditional-instrument recognition.</em>
+</p>
+
 ## Highlights
 
 - **Training-time expert knowledge, image-only deployment.** ProDist uses expert-reviewed class profiles only during training. The deployed model remains a compact image-only classifier, which makes it practical for web-based and expert-system deployment.
