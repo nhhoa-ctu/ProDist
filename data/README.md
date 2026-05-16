@@ -8,4 +8,4 @@ The full data package for the ProDist study is provided as a GitHub release asse
 data.zip
 ```
 
-To download the data, open the **Releases** section of this repository and select the release asset `data.zip`.
+To download the data, click [`data.zip`](https://github.com/user-attachments/files/27858312/data.zip) or open the **Releases** section of this repository and select the release asset `data.zip`.
