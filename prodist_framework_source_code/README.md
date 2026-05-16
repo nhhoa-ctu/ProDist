@@ -73,13 +73,3 @@ visual_only_dn121.ipynb
 st_kd_dn121_to_mnet.ipynb
 st_kd_vgg16_to_mnetv2.ipynb
 ```
-
-## Reproducibility notes
-
-The notebooks are provided as experiment records. Before running them, update the dataset path, split metadata path, checkpoint path, and output directory in the corresponding configuration cells.
-
-The manuscript results are computed from validation-selected checkpoints and held-out test predictions. Teacher models are used only during training. The deployed classifier contains only the student feature extractor and classification head.
-
-## Review anonymity
-
-This directory is prepared for double-anonymized review. Author names, affiliations, institutional URLs, and identifying local paths are intentionally omitted.
