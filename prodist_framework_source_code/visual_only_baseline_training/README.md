@@ -51,32 +51,3 @@ Each notebook trains one visual-only classifier using supervised learning. These
 1. They provide baseline recognition performance.
 2. They provide candidate teacher checkpoints for distillation experiments.
 3. They support deployment-size comparison against distilled student models.
-
-## Expected inputs
-
-Each notebook expects:
-
-```text
-training images
-validation images
-test images
-class labels
-split metadata
-output directory for checkpoints and predictions
-```
-
-## Expected outputs
-
-Each notebook may produce:
-
-```text
-validation-selected checkpoint
-held-out test predictions
-classification metrics
-confusion matrix
-checkpoint metadata
-```
-
-## Notes
-
-These notebooks isolate image-only recognition performance under the same dataset split, preprocessing protocol, and evaluation setting used by the distillation experiments.
