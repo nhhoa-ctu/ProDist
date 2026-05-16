@@ -58,31 +58,3 @@ st_kd_incv3_to_nasmob.ipynb
 | `incv3` | InceptionV3 |
 | `xcep` | Xception |
 | `nasmob` | NASNetMobile |
-
-## Expected inputs
-
-Each notebook expects:
-
-```text
-dataset split files
-trained teacher checkpoint
-student backbone configuration
-training, validation, and test image paths
-output directory for the distilled student checkpoint
-```
-
-## Expected outputs
-
-Each notebook may produce:
-
-```text
-validation-selected distilled student checkpoint
-held-out test predictions
-classification metrics
-checkpoint metadata
-files used for deployed-size auditing
-```
-
-## Notes
-
-The notebooks in this directory support comparison between visual-only training and teacher-guided compact student training. They are part of the reproducibility artifact for the manuscript.
